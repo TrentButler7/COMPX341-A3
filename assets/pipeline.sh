@@ -7,7 +7,7 @@ npm install
 if npm run build; then
 	echo "Build Successful, Proceding to Commit/Push"
 	git add *
-	git commit -m $1
+	git commit -m "$1"
 	git push origin master
 	echo "Pushed Changes"
 else
