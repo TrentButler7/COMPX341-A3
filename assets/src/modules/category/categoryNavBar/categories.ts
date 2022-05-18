@@ -1,3 +1,4 @@
+/** Trent Butler 1522993 */
 //
 export const categories = {
   cooks: "Cookbooks",
